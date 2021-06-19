@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+
+#grid-container {
+    display: grid;
+    width: 90vw;
+    max-width: 600px;
+    height: 90vw;
+    max-height: 600px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    
+    /* grid-template-columns:repeat(16, 1fr);
+    grid-template-rows:repeat(16, 1fr); */
+}
+
+#grid-container div {
+    border: 1px solid rgb(196, 196, 196);
+    
+    
+}
