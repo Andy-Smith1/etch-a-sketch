@@ -1,10 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+html {
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(7,7,87,1) 100%);
+}
+
 body {
     width: 100%;
-    font-family: sans-serif;
+    font-family: russo one, sans-serif;
     text-align: center;
+    color: white;
     
 }
 
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;;
+
+}
+
+button {
+    font-family: russo one, sans-serif;
+    background-color: whites;
+    color: rgba(7,7,87);
+    border: 0;
+    box-shadow: 0 0 10px white;
+    padding: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
 
 #grid-container {
     display: grid;
@@ -12,15 +38,17 @@ body {
     max-width: 600px;
     height: 90vw;
     max-height: 600px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
     margin: auto;
-    
+    background-color:white;
     /* grid-template-columns:repeat(16, 1fr);
     grid-template-rows:repeat(16, 1fr); */
 }
 
 #grid-container div {
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid rgba(38, 24, 189, 0.144);
     
     
 }
